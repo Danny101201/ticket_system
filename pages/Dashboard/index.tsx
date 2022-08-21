@@ -1,5 +1,6 @@
 import Layout from 'Components/element/Layout/Layout'
 import React from 'react'
+import Link from 'next/link'
 
 import Breadcrumb from 'Components/UI/Breadcrumb/index'
 import TicketTable from 'Components/element/Dashboard/TicketTable'
@@ -12,10 +13,12 @@ let BreadcrumbPaths = [
 ]
 const Dashboard: NextPageWithLayout = () => {
   return (
-    <div className="bg-white p-5 flex  flex-col">
+    <div className="bg-white p-5 flex  flex-col min-h-screen">
       <Breadcrumb paths={BreadcrumbPaths} />
       <div className="flex flex-col items-center justify-cemter">
-        <button className="bg-yellow-500 text-white py-3 px-8 rounded-md active:bg-yellow-600 shadow-md">Add new Tickets</button>
+        <Link href={PATH.AddNewTickets}>
+          <button className="bg-yellow-500 text-white py-3 px-8 rounded-md active:bg-yellow-600 shadow-md">Add new Tickets</button>
+        </Link>
         <div className='text-center mt-2'>
           <p>Total Tickets : <span>50</span></p>
           <p>Pemding Tickets : <span>5</span></p>

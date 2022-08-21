@@ -4,7 +4,7 @@ interface FormLableProps {
   label: string
   name?: string
   type?: InputType
-  placeHolder: string
+  placeHolder?: string
   required?: boolean,
   handleChangeInput?: ChangeEventHandler<HTMLInputElement>
 }

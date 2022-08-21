@@ -3,5 +3,6 @@ export const PATH={
   Login:'/user/login',
   forgetPassWord:'/user/forgetPassWord',
   tickets:'/Tickets',
+  AddNewTickets:'/Tickets/AddNewTickets',
   dashboard:'/Dashboard',
 }
