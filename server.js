@@ -3,7 +3,7 @@ const next = require('next');
 const dev = process.env.NODE_ENV !== 'production';
 
 const { createProxyMiddleware } = require('http-proxy-middleware');
-const API_SERVICE_URL = "https://jsonplaceholder.typicode.com";
+const API_SERVICE_URL = "https://jsonplaceholder.typicode.com/";
 const app = next({
   dev
 })

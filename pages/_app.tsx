@@ -9,7 +9,7 @@ import { store } from 'app/store'
 import Header from 'next/head'
 
 
-export type NextPageWithLayout = NextPage & {
+export type NextPageWithLayout<T = any> = NextPage<T> & {
   getLayout?: (page: ReactElement) => ReactNode
 }
 

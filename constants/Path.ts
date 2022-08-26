@@ -4,5 +4,6 @@ export const PATH={
   forgetPassWord:'/user/forgetPassWord',
   tickets:'/Tickets',
   AddNewTickets:'/Tickets/AddNewTickets',
+  TicketList:'/Tickets/TicketList',
   dashboard:'/Dashboard',
 }
