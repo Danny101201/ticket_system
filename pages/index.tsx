@@ -17,7 +17,8 @@ const Home: NextPageWithLayout<{
   return (
     <>
     <div>Home</div>
-      time :{time}
+      times :{time}
+      <p>123</p>
     </>
   )
 }
