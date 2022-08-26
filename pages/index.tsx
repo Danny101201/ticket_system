@@ -18,6 +18,7 @@ const Home: NextPageWithLayout<{
     <>
     <div>Home</div>
       times :{time}
+      <p>123</p>
     </>
   )
 }
